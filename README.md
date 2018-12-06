@@ -3,6 +3,7 @@
 ![alt text](https://github.com/VamshikShetty/adversarial-neural-cryptography-tensorflow/blob/master/images/medium-symm-crypto.jpg)
 
 orginal paper : ![Learning to protect communications with adversarial neural cryptography](https://arxiv.org/abs/1610.06918)
+
 medium article ![link](https://medium.com/@vamshikdshetty) 
 
 ### Training parameters:
@@ -28,6 +29,9 @@ EVE_MULTIPLIER = 2  # Train Eve 2x for every step of Alice/Bob
 
 ### Training Loss:
 First 300 epochs
+
 ![alt text](https://github.com/VamshikShetty/adversarial-neural-cryptography-tensorflow/blob/master/images/0-300.PNG)
+
 Last 300 epochs
+
 ![alt text](https://github.com/VamshikShetty/adversarial-neural-cryptography-tensorflow/blob/master/images/0-300.PNG)
