@@ -2,9 +2,9 @@
 
 ![alt text](https://github.com/VamshikShetty/adversarial-neural-cryptography-tensorflow/blob/master/images/medium-symm-crypto.jpg)
 
-orginal paper : ![Learning to protect communications with adversarial neural cryptography](https://arxiv.org/abs/1610.06918)
+orginal paper : [Learning to protect communications with adversarial neural cryptography](https://arxiv.org/abs/1610.06918)
 
-medium article ![link](https://medium.com/@vamshikdshetty) 
+medium article [link](https://medium.com/@vamshikdshetty) 
 
 ### Training parameters:
 ```python
