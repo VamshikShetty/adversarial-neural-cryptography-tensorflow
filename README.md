@@ -13,7 +13,7 @@ learning_rate   = 0.0008
 batch_size      = 4096
 sample_size     = 4096*5 # 4096 according to the paper
 epochs          = 10000  # 850000 according to the paper
-steps_per_epoch = int(sample_sizebatch_size)
+steps_per_epoch = int(sample_size/batch_size)
 
 
 # Input and output configuration.
