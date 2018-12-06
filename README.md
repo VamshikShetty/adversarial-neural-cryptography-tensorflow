@@ -34,4 +34,4 @@ First 300 epochs
 
 Last 300 epochs
 
-![alt text](https://github.com/VamshikShetty/adversarial-neural-cryptography-tensorflow/blob/master/images/0-300.PNG)
+![alt text](https://github.com/VamshikShetty/adversarial-neural-cryptography-tensorflow/blob/master/images/2700-3000.PNG)
