@@ -102,9 +102,9 @@ eve_saver   = tf.train.Saver(Eve_vars)
 
 
 if restore_trained_model:
-  alice_saver.restore(sess, "alice_weights/model.ckpt")
-  bob_saver.restore(sess, "bob_weights/model.ckpt")
-  eve_saver.restore(sess, "eve_weights/model.ckpt")
+  alice_saver.restore(sess, "weights/alice_weights/model.ckpt")
+  bob_saver.restore(sess, "weights/bob_weights/model.ckpt")
+  eve_saver.restore(sess, "weights/eve_weights/model.ckpt")
 
 
 # DATASET 
@@ -138,9 +138,9 @@ for i in range(epochs):
 
   # save after every 500 epochs
   if i%500 == 0 and i!=0:
-    alice_saver.save(sess, "alice_weights/model.ckpt")
-    bob_saver.save(sess, "bob_weights/model.ckpt")
-    eve_saver.save(sess, "eve_weights/model.ckpt")
+    alice_saver.save(sess, "weights/alice_weights/model.ckpt")
+    bob_saver.save(sess, "weights/bob_weights/model.ckpt")
+    eve_saver.save(sess, "weights/eve_weights/model.ckpt")
 
 
   # output bit error and loss after every 100 epochs
