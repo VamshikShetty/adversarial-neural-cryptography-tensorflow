@@ -4,7 +4,7 @@
 
 orginal paper : [Learning to protect communications with adversarial neural cryptography](https://arxiv.org/abs/1610.06918)
 
-medium article [link](https://towardsdatascience.com/life-of-alice-bob-and-eve-with-neural-net-6df0ad1d6077) 
+[medium article](https://towardsdatascience.com/life-of-alice-bob-and-eve-with-neural-net-6df0ad1d6077) 
 
 ### Training parameters:
 ```python
